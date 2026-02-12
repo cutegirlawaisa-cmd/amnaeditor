@@ -3,68 +3,263 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Editors Guide</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Amna Rehman - Video Editor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; 
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            margin: 0 15px;
+            color: #fff;
+            font-weight: bold;
+        }
+        section {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+        }
+        section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .portfolio-item {
+            width: 300px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .portfolio-item img {
+            width: 100%;
+            display: block;
+        }
+        .portfolio-item p {
+            padding: 10px;
+            text-align: center;
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+        a.button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            background-color: #222;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <header class="bg-primary text-white text-center py-4">
-        <h1>Welcome to Video Editors Hub</h1>
-        <p>Discover the best tools for editing videos like a pro.</p>
-    </header>
-    
-    <main class="container my-5">
-        <section id="intro">
-            <h2>What is a Video Editor?</h2>
-            <p>A video editor is software or tool that allows you to cut, trim, add effects, and enhance videos. Popular options include Adobe Premiere Pro, Final Cut Pro, and free alternatives like DaVinci Resolve.</p>
-        </section>
-        
-        <section id="editors" class="my-5">
-            <h2>Top Video Editors</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Adobe Premiere Pro</h5>
-                            <p class="card-text">Professional-grade editor with advanced features for color grading and multi-camera editing.</p>
-                            <a href="https://www.adobe.com/products/premiere.html" class="btn btn-primary">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">DaVinci Resolve</h5>
-                            <p class="card-text">Free and powerful tool for editing, color correction, and visual effects.</p>
-                            <a href="https://www.blackmagicdesign.com/products/davinciresolve" class="btn btn-primary">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">CapCut</h5>
-                            <p class="card-text">Mobile-friendly editor with AI features for quick edits and effects.</p>
-                            <a href="https://www.capcut.com" class="btn btn-primary">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section id="tips">
-            <h2>Video Editing Tips</h2>
-            <ul>
-                <li>Start with a storyboard to plan your edits.</li>
-                <li>Use keyframes for smooth transitions.</li>
-                <li>Export in high quality (e.g., 1080p or 4K).</li>
-            </ul>
-        </section>
-    </main>
-    
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2023 Video Editors Hub. Built with Bootstrap.</p>
-    </footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<header>
+    <h1>Amna Rehman</h1>
+    <p>Professional Video Editor - 1 Year Experience (Adobe)</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm <strong>Amna Rehman</strong>, a professional video editor with 1 year of experience in Adobe Premiere Pro and other editing tools. I create high-quality videos for YouTube, social media, and events.</p>
+</section>
+
+<section id="portfolio">
+    <h2>My Portfolio</h2>
+    <div class="portfolio">
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200.png?text=Video+1" alt="Video 1">
+            <p>Sample Video Project 1</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200.png?text=Video+2" alt="Video 2">
+            <p>Sample Video Project 2</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200.png?text=Video+3" alt="Video 3">
+            <p>Sample Video Project 3</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you want to hire me or have a project in mind, reach out:</p>
+    <p>Email: <a href="mailto:amnarehman@example.com">amnarehman@example.com</a></p>
+    <p>Phone: +92 300 1234567</p>
+    <a class="button" href="mailto:amnarehman@example.com">Hire Me</a>
+</section>
+
+<footer>
+    &copy; 2026 Amna Rehman. All rights reserved.
+</footer>
+
+</body>
+</html>
+
+ya site chy thy galt ban gai
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amna Rehman - Video Editor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; 
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            margin: 0 15px;
+            color: #fff;
+            font-weight: bold;
+        }
+        section {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+        }
+        section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .portfolio-item {
+            width: 300px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .portfolio-item img {
+            width: 100%;
+            display: block;
+        }
+        .portfolio-item p {
+            padding: 10px;
+            text-align: center;
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+        a.button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            background-color: #222;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Amna Rehman</h1>
+    <p>Professional Video Editor - 1 Year Experience (Adobe)</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm <strong>Amna Rehman</strong>, a professional video editor with 1 year of experience in Adobe Premiere Pro and other editing tools. I create high-quality videos for YouTube, social media, and events.</p>
+</section>
+
+<section id="portfolio">
+    <h2>My Portfolio</h2>
+    <div class="portfolio">
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200.png?text=Video+1" alt="Video 1">
+            <p>Sample Video Project 1</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200.png?text=Video+2" alt="Video 2">
+            <p>Sample Video Project 2</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200.png?text=Video+3" alt="Video 3">
+            <p>Sample Video Project 3</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you want to hire me or have a project in mind, reach out:</p>
+    <p>Email: <a href="mailto:amnarehman@example.com">amnarehman@example.com</a></p>
+    <p>Phone: +92 300 1234567</p>
+    <a class="button" href="mailto:amnarehman@example.com">Hire Me</a>
+</section>
+
+<footer>
+    &copy; 2026 Amna Rehman. All rights reserved.
+</footer>
+
 </body>
 </html>
